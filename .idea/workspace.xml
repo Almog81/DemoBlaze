@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9adb61-84f0-498d-81a8-cba5ec557cbc" name="Changes" comment="Start Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/ManagePages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/Test01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +55,21 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Test01.test01_Register">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DemoBlaze" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DemoBlaze" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenCart" />
+      <module name="DemoBlaze" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SanityTests.*" />
@@ -70,7 +86,7 @@
       </method>
     </configuration>
     <configuration name="Test01.test01_DynamicID" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenCart" />
+      <module name="DemoBlaze" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SanityTests.*" />
@@ -88,7 +104,7 @@
       </method>
     </configuration>
     <configuration name="Test01.test01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="OpenCart" />
+      <module name="DemoBlaze" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SanityTests.*" />

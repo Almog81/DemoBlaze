@@ -24,6 +24,7 @@ public class CommonOps extends Base {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        ManagePages.initPages();
     }
 
 
