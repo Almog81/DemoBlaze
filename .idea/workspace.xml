@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9adb61-84f0-498d-81a8-cba5ec557cbc" name="Changes" comment="Start Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/ManagePages.java" afterDir="false" />
+    <list default="true" id="5d9adb61-84f0-498d-81a8-cba5ec557cbc" name="Changes" comment="crate Test01 based on PageObject">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CommonOps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/WebFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/Test01.java" afterDir="false" />
     </list>
@@ -54,20 +50,7 @@
       <recent name="PageObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test01.test01_Register">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="DemoBlaze" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="DemoBlaze" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Test01.test01_Login">
     <configuration name="Test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoBlaze" />
       <extension name="coverage">
@@ -103,6 +86,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test01.test01_Login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoBlaze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.Test01" />
+      <option name="METHOD_NAME" value="test01_Login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test01.test01_Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoBlaze" />
       <extension name="coverage">
@@ -123,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test01.test01_Login" />
         <item itemvalue="TestNG.Test01.test01_Register" />
         <item itemvalue="TestNG.Test01.test01_DynamicID" />
         <item itemvalue="TestNG.Test01" />
@@ -152,7 +154,14 @@
       <option name="project" value="LOCAL‎" />
       <updated>1732449126363</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="crate Test01 based on PageObject">
+      <created>1732476150977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1732476150977</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Project" />
+    <MESSAGE value="crate Test01 based on PageObject" />
+    <option name="LAST_COMMIT_MESSAGE" value="crate Test01 based on PageObject" />
   </component>
 </project>
